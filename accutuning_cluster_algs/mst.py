@@ -1,5 +1,5 @@
 """
-Minimum Spanning Tree Clustering
+Minimum Spanning Tree Clustering (https://github.com/noycohen100/MARCO-GE)
 """
 from __future__ import division
 

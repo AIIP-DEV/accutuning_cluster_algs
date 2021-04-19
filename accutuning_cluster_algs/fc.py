@@ -6,7 +6,7 @@ import numpy as np
 from sklearn.base import BaseEstimator
 from sklearn.utils import check_random_state
 from sklearn.metrics.pairwise import euclidean_distances, manhattan_distances
-from sklearn.datasets.samples_generator import make_blobs
+from sklearn.datasets import make_blobs
 
 
 class KMeans(BaseEstimator):
