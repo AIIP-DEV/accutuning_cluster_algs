@@ -115,3 +115,7 @@ class FuzzyKMeans(KMeans):
                 break
 
         return self
+
+    def predict(self, X):
+        return euclidean_distances(X, self.cluster_centers_,
+                                     squared=True).argmin(axis=1)
