@@ -112,5 +112,3 @@ class KernelKMeans(BaseEstimator, ClusterMixin):
         self._compute_dist(K, dist, self.within_distances_,
                            update_within=False)
         return dist.argmin(axis=1)
-
-    return km.labels_
