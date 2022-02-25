@@ -1,5 +1,5 @@
 import os
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 import datetime as dt
 try:
     from pip.req import parse_requirements
