@@ -23,6 +23,6 @@ setup(
     version="0.1.0",
     packages=find_namespace_packages(),
     include_package_data=True,
-    python_requires="3.8",
+    python_requires=">=3.8",
     install_requires=install_requires,
 )
